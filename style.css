@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.YVeNZFOMXLyj8oUGwTBUEQHaEo%26pid%3DApi&f=1&ipt=6ae7924c5be1a37a1a62e9f5f4d95e528a3ab7810a7f80a9f8eb88f79ca40138&ipo=images) center center/cover no-repeat;
+      background-attachment: fixed;
+    }
+  
+    .form-container {
+      background-color: #fffb;
+      width: 50vw;
+      height: 60vh;
+      min-width: 290px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 0 10px;
+    }    
+
+    main {
+      text-align: center;
+    }
+
+    .container {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .container * {
+      margin: 3px;
+    }
+    #submit {
+      outline: none;
+      border: none;
+      background-color: rgb(33, 209, 209);
+      font-weight: bold;
+      color: #eee;
+      height: 20px;
+      border-radius: 4px;
+      margin-top: 30px;
+    }
+    #submit:hover, #submit:focus {
+      background-color: aqua;
+    }
+    #submit:active {
+      background-color: rgb(20, 180, 180);
+    }
+    #password, #username {
+      height: 25px;
+      outline: none;
+      border: none;
+    }
