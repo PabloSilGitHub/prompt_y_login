@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--conexión a css-->
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
 <body>
+    <!--contenedor principal-->
     <div class="form-container">
         <main>
-            <header><h1>¡Bienvenid@!</h1></header>
+            <header>
+                <h1>¡Bienvenid@!</h1>
+            </header>
         </main>
+        <!--contenedor del formulario-->
         <section>
             <form>
+                <!--contenedor del input de usuario-->
                 <div class="container">
                     <label for="username">Escriba el nombre de usuario</label>
-                    <input type="text" id="username" placeholder="Usuario">
+                    <input type="text" id="username" placeholder="Usuario" required>
                 </div>
+                <!--contenedor del input de la contraseña-->
                 <div class="container">
                     <label for="password">Escriba su contraseña</label>
-                    <input type="password" id="password" placeholder="Contraseña">
+                    <input type="password" id="password" placeholder="Contraseña" required>
                 </div>
+                <!--contenedor del botón de envio-->
                 <div class="container">
-                    <input type="submit" id="submit" value="ENVIAR">
+                    <input type="button" id="submit" value="ENVIAR">
                 </div>
             </form>
         </section>
     </div>
+    <!--añadiendo javascript al documento-->
+    <script src="index.js"></script>
 </body>
 </html>

@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
     }
-
+    /*centrando el contenido del body y colocando una imagen al fondo de este*/
     body {
       display: flex;
       justify-content: center;
@@ -13,6 +14,7 @@
       background-attachment: fixed;
     }
   
+    
     .form-container {
       background-color: #fffb;
       width: 50vw;
@@ -35,9 +37,11 @@
       justify-content: center;
       flex-direction: column;
     }
+    /* asignando un margen de 3px a todos los elementos de los divs con clase "container" */
     .container * {
       margin: 3px;
     }
+    /*asignando estilos al botón */
     #submit {
       outline: none;
       border: none;
@@ -48,12 +52,15 @@
       border-radius: 4px;
       margin-top: 30px;
     }
+    /*cuando el cursor pase por encima del botón, este cambiará de color, asi como también cuando se seleccione */
     #submit:hover, #submit:focus {
       background-color: aqua;
     }
+    /* cuando se pulse el botón, este cambiara a una tonalidad más oscura */
     #submit:active {
       background-color: rgb(20, 180, 180);
     }
+    /* asignando estilos a los inputs de contraseña y de usuario */
     #password, #username {
       height: 25px;
       outline: none;
